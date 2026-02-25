@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marley Live Chat Test</title>
+</head>
+<body>
+<h1>Live Chat Test - Subdomain Simulation</h1>
+<!-- Arpita -->
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+ 
+			embeddedservice_bootstrap.init(
+				'00DPu000009Sz1n',
+				'Test_Arpita',
+				'https://marley--chatdev1.sandbox.my.site.com/ESWTestArpita1772019643615',
+				{
+					scrt2URL: 'https://marley--chatdev1.sandbox.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://marley--chatdev1.sandbox.my.site.com/ESWTestArpita1772019643615/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+s' onload='initEmbeddedMessaging()'></script>
+ 
+ 
+</body>
+</html>
